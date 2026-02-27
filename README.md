@@ -1,5 +1,9 @@
 # Crypto Futures Risk Calculator
 
+## 📸 Demo
+
+![Crypto Futures Risk Calculator](Screenshot.png)
+
 A lightweight CLI tool that helps traders calculate safe position sizing,
 risk exposure, and liquidation estimates for crypto futures trading.
 
