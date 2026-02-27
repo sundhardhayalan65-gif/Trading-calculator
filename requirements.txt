@@ -1,0 +1,2 @@
+# Crypto Futures Risk Calculator
+# No external dependencies required
