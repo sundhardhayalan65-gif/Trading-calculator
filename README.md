@@ -1,33 +1,72 @@
 # Crypto Futures Risk Calculator
 
-A Python-based CLI tool that calculates safe position sizing for crypto futures trading.
+A lightweight CLI tool that helps traders calculate safe position sizing,
+risk exposure, and liquidation estimates for crypto futures trading.
 
-## Features
+---
+
+## 🚀 Features
 - Position size calculation
 - Risk percentage control
-- Liquidation price estimate
-- Risk-to-reward ratio
-- Standalone Windows EXE support
+- Liquidation price estimation
+- Risk-to-reward calculation
+- Standalone Windows executable
 
-## How to Run
+---
 
-### Option 1 — Python
+## ⚡ Quick Start
+
+### Option 1 — Windows (Recommended)
+1. Go to **Releases**
+2. Download `calculator.exe`
+3. Double-click to run
+
+### Option 2 — Python
+```bash
 python calculator.py
+```
 
-### Option 2 — Windows App
-Download calculator.exe and double-click to run.
+---
 
-## Example Input
+## 📊 Example
+
+```
 Account balance: 1000
 Leverage: 10
 Entry price: 50000
 Stop loss: 49000
 Risk: 2%
+```
 
-## Tech Stack
+Output:
+
+```
+Recommended position size: 0.02 BTC
+Dollar risk: $20
+Liquidation estimate: $45,250
+```
+
+---
+
+## 🧠 Why This Tool Exists
+
+Most traders oversize positions and get liquidated.
+This calculator enforces disciplined risk management using fixed-risk position sizing.
+
+---
+
+## 🛠 Tech Stack
 - Python
 - CLI Application
-- PyInstaller
+- PyInstaller (Windows EXE)
 
-## Author
-Sundhar
+---
+
+## 📦 Download
+
+Download the latest version from the **Releases** section.
+
+---
+
+## 📄 License
+MIT License
